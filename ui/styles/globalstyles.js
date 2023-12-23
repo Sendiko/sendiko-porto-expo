@@ -5,7 +5,10 @@ const globalStyles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#fffbff',
+    backgroundColor: '#1C1B1E',
+  },
+  whiteText: {
+    color: "#E6E1E6"
   },
   rowContainer: {
     flex: 1,
@@ -13,7 +16,6 @@ const globalStyles = StyleSheet.create({
     alignItems: "center",
     flexDirection: "row",
     flexWrap: "wrap",
-    width: "80%",
   },
   imageCircle: {
     borderRadius: "100%",
@@ -23,11 +25,13 @@ const globalStyles = StyleSheet.create({
   },
   headerTitle: {
     fontWeight: "bold",
-    fontSize: "2rem"
+    fontSize: "2rem",
+    color: "#E6E1E6",
   },
   headerText: {
     textAlign: "left",
-    fontSize: "1rem"
+    fontSize: "1rem",
+    color: "#E6E1E6"
   },
   headerContent: {
     flexWrap: "wrap",
@@ -37,7 +41,7 @@ const globalStyles = StyleSheet.create({
   linkCard: {
     flex: 1,
     borderRadius: "1rem",
-    borderColor: "#4D2DB7",
+    borderColor: "#4928B3",
     borderWidth: 1, 
     flexWrap: "wrap",
     paddingVertical: "0.6rem",
@@ -48,11 +52,59 @@ const globalStyles = StyleSheet.create({
     fontSize: "1rem",
     marginEnd: "1rem",
     marginVertical: "0.5rem",
-    width: "8.2rem"
+    minWidth: "8.5rem",
+    color: "#E6E1E6"
+  },
+  linkCardHover: {
+    borderRadius: "1.5rem",
+    backgroundColor: "#4928B3",
+    color: "#E6DEFF",
   },
   linkIcon: {
-    paddingEnd: "0.5rem"
-  }
+    paddingEnd: "0.5rem",
+    color: "#E6E1E6"
+  },
+  chipContainer: {
+    flexShrink: 1,
+    justifyContent: "space-evenly",
+    flexDirection: "row",
+    flexWrap: "wrap",
+  },
+  infoCardContainer: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    flexDirection: "row",
+    flexWrap: "wrap",
+    width: "80%",
+    overflow: "visible",
+    minHeight: "auto"
+  },
+  infoCard:{
+    borderWidth: 1,
+    borderRadius: "1rem",
+    borderColor: "#F4BF1F",
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#1C1B1E',
+    aspectRatio:1,
+    margin: "1rem",
+    padding:"1rem",
+    minWidth: "20rem",
+    maxWidth: "20rem",
+    },
+    linkInfoCardTitle: {
+      fontSize: "2rem",
+      color: "#E6E1E6",
+      fontWeight: "bold",
+      textAlign: "center"
+    },
+    linkInfoCardText: {
+      fontSize: "1rem",
+      color: "#E6E1E6",
+      textAlign: "justify"
+    }
 });
 
 export default globalStyles;
