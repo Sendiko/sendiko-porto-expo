@@ -1,6 +1,6 @@
 import { Image, Text, TouchableOpacity, View } from "react-native-web";
 import globalStyles from "../styles/globalstyles";
-import SmallCardLink from "../components/SmallCardLink"
+import SmallCardLink from "./SmallCardLink"
 
 const HeaderProfile = () => {
     return (
